@@ -4,6 +4,6 @@ class MyServer
     end
    
     def pretty_response
-      (Time.now.to_i % 2).zero? ?  ["<em>time to sell!!!</em>"] : ["<strong>go ahead and buy more@@@@$$$$$/strong>"]
+      (Time.now.to_i % 2).zero? ?  ["<em>Hello</em>"] : ["<strong>Hello</strong>"]
     end
-  end
+end
